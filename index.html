@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a323e">
+  <meta name="description" content="Rahul Dnyaneshwar Koli — computer science student focused on data science, analytics, and thoughtful software.">
+  <title>Rahul Koli — Data Science &amp; Analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./assets/vendor/three/build/three.module.min.js"
+      }
+    }
+  </script>
+  <script src="script.js" defer></script>
+  <script type="module" src="spider-3d.js"></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <canvas class="spider-canvas" id="spider-canvas" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Rahul Koli, home"><span>RK</span><i>.</i></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+      <span></span><span></span>
+    </button>
+    <nav class="navigation" id="primary-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Projects</a>
+      <a href="#journey">Journey</a>
+      <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO ENTRY-LEVEL OPPORTUNITIES</p>
+        <h1>Curious mind.<br> <span class="gradient-text">Meaningful data.</span></h1>
+        <p class="hero-intro">I'm <strong>Rahul Koli</strong> — a computer science student exploring data science, analytics, and the ideas that turn information into impact.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="button button-quiet" href="resume.pdf" download>Download résumé <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-meta">
+          <span><span class="meta-icon">⌖</span> Nashik, Maharashtra, India</span>
+          <span class="meta-divider"></span>
+          <span><span class="meta-icon">✳</span> Learning by building</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <img class="portrait-image" src="assets/rahul-koli-portrait.jpg" alt="Portrait of Rahul Koli" fetchpriority="high">
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-mouse"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap section-block about-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / THE PERSON BEHIND THE SCREEN</p>
+        <h2>Building a foundation<br>for <span class="gradient-text">what's next.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy glass-card reveal">
+          <p class="large-copy">I’m a B.Sc. Computer Science student with a growing focus on <span class="text-lilac">data science and analytics.</span></p>
+          <p>From cleaning and exploring data to building useful web experiences, I enjoy connecting technical foundations with practical problems. I’m looking for an opportunity to contribute, keep learning, and grow through real-world work.</p>
+          <a class="text-link" href="https://www.linkedin.com/in/rahul-koli-48639a422/" target="_blank" rel="noreferrer">More about me on LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="about-facts reveal">
+          <article class="fact-card glass-card"><span class="fact-number">01</span><div><h3>Analytical by nature</h3><p>Data analysis, cleaning, visualization, and machine learning fundamentals.</p></div></article>
+          <article class="fact-card glass-card"><span class="fact-number">02</span><div><h3>Building practical skills</h3><p>Python, SQL, and frontend development — learning through projects and practice.</p></div></article>
+          <article class="fact-card glass-card"><span class="fact-number">03</span><div><h3>Ready to collaborate</h3><p>Adaptable, curious, and excited to contribute to a thoughtful team.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block skills-section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / MY TOOLKIT</p>
+        <h2>Tools for <span class="gradient-text">turning ideas into action.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-panel glass-card reveal">
+          <div class="panel-title"><span class="panel-icon">⌁</span><h3>Data &amp; analytics</h3></div>
+          <div class="tag-list"><span>Data analysis</span><span>Data cleaning</span><span>Visualization</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>Machine learning basics</span></div>
+        </article>
+        <article class="skill-panel glass-card reveal">
+          <div class="panel-title"><span class="panel-icon panel-icon-blue">{ }</span><h3>Programming</h3></div>
+          <div class="tag-list"><span>Python</span><span>SQL</span><span>Java</span><span>C</span><span>C++</span><span>JavaScript</span></div>
+        </article>
+        <article class="skill-panel glass-card reveal">
+          <div class="panel-title"><span class="panel-icon panel-icon-mint">▦</span><h3>Web &amp; databases</h3></div>
+          <div class="tag-list"><span>HTML</span><span>CSS</span><span>Flask</span><span>PostgreSQL</span><span>MySQL</span></div>
+        </article>
+        <article class="skill-panel glass-card reveal">
+          <div class="panel-title"><span class="panel-icon panel-icon-peach">◈</span><h3>Tools &amp; foundations</h3></div>
+          <div class="tag-list"><span>Excel</span><span>VS Code</span><span>Git / GitHub</span><span>OOP</span><span>Problem solving</span><span>Data structures basics</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block work-section" id="work">
+      <div class="section-heading work-heading reveal">
+        <div><p class="eyebrow">03 / SELECTED PROJECTS</p><h2>Small steps.<br><span class="gradient-text">Real-world thinking.</span></h2></div>
+        <p class="heading-aside">Academic projects that helped me explore how software can make information more useful.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-featured glass-card reveal">
+          <div class="project-topline"><span class="project-index">PROJECT 01</span><span class="project-type">AI · CAREER EXPLORATION</span></div>
+          <div class="project-art skilldna-art" aria-hidden="true">
+            <div class="art-ring ring-a"></div><div class="art-ring ring-b"></div><div class="art-node art-node-a"></div><div class="art-node art-node-b"></div><div class="art-node art-node-c"></div>
+            <div class="art-label label-one">SKILLS</div><div class="art-label label-two">GROWTH</div><div class="art-center">DNA<span>.</span></div>
+            <div class="art-chip">career map <span>↗</span></div>
+          </div>
+          <div class="project-content">
+            <h3>SkillDNA AI</h3>
+            <p class="project-subtitle">AI Career Genome Analyzer</p>
+            <p>Analyzes résumé details and career goals to identify skill gaps, recommend suitable paths, and create a personalized learning roadmap. Includes an admin module for managing users and career data.</p>
+            <div class="project-tags"><span>Python</span><span>Flask</span><span>PostgreSQL</span><span>HTML · CSS · JS</span></div>
+          </div>
+        </article>
+        <article class="project-card glass-card reveal">
+          <div class="project-topline"><span class="project-index">PROJECT 02</span><span class="project-type">WEB APP · MANAGEMENT</span></div>
+          <div class="project-art service-art" aria-hidden="true">
+            <div class="service-window"><div class="window-dots"><i></i><i></i><i></i></div><div class="service-layout"><div class="service-sidebar"><b></b><i></i><i></i><i></i></div><div class="service-main"><div class="service-heading-line"></div><div class="service-stat"><i></i><i></i><i></i></div><div class="service-table"><b></b><i></i><i></i><i></i></div></div></div></div>
+            <span class="service-badge">SERVICE LOG <b>↗</b></span>
+          </div>
+          <div class="project-content">
+            <h3>Vehicle Service<br>Management System</h3>
+            <p>Designed to organize customer and vehicle records, service schedules, and maintenance history in one place. Contributed to frontend development and database integration.</p>
+            <div class="project-tags"><span>Python</span><span>Flask</span><span>MySQL / PostgreSQL</span><span>JavaScript</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block journey-section" id="journey">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 / THE JOURNEY SO FAR</p>
+        <h2>Learning with <span class="gradient-text">intention.</span></h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">2025 — 2027 <span>IN PROGRESS</span></div><div class="timeline-content glass-card"><p class="timeline-kicker">EDUCATION</p><h3>B.Sc. Computer Science</h3><p>KVN Naik Arts, Commerce and Science College</p><p class="timeline-note">Building a strong foundation in computing while pursuing an interest in data science and analytics.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">CURRENTLY PURSUING</div><div class="timeline-content glass-card"><p class="timeline-kicker">PROFESSIONAL LEARNING</p><h3>Data Science &amp; Data Analytics</h3><p>Fortune Cloude Technology, Nashik</p><p class="timeline-note">Developing practical knowledge in data science and analytics.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">MARCH 2026</div><div class="timeline-content glass-card"><p class="timeline-kicker">COURSEWORK</p><h3>C, C++ &amp; Java</h3><p>Quality Educational Institute of Computer Technologies</p></div></article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block beyond-section">
+      <div class="beyond-card glass-card reveal">
+        <div><p class="eyebrow">A FEW THINGS I BRING</p><h2>Good work starts<br>with a <span class="gradient-text">good mindset.</span></h2></div>
+        <div class="quality-list"><span>Creative thinking</span><span>Teamwork</span><span>Adaptability</span><span>Quick learning</span><span>Time management</span></div>
+        <div class="language-row"><span class="language-label">SPOKEN LANGUAGES</span><span>English</span><span>Marathi</span><span>Hindi</span></div>
+      </div>
+    </section>
+
+    <section class="section-wrap contact-section" id="contact">
+      <div class="contact-orb" aria-hidden="true"></div>
+      <div class="contact-content reveal">
+        <p class="eyebrow">05 / YOUR NEXT TEAMMATE?</p>
+        <h2>Let’s make<br><span class="gradient-text">something useful.</span></h2>
+        <p>I’m looking for an entry-level opportunity where I can learn, contribute, and grow. Have a project or role in mind? I’d love to hear from you.</p>
+        <a class="button button-primary contact-button" href="mailto:rahulkoli8766161@gmail.com">Say hello <span aria-hidden="true">↗</span></a>
+        <div class="contact-links"><a href="mailto:rahulkoli8766161@gmail.com">rahulkoli8766161@gmail.com</a><a href="tel:+918766619504">+91 87666 19504</a><a href="https://www.linkedin.com/in/rahul-koli-48639a422/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap"><a class="wordmark" href="#home"><span>RK</span><i>.</i></a><p>Designed with curiosity by Rahul Koli.</p><a href="#home" class="back-top">BACK TO TOP ↑</a><span class="footer-year">© <span id="current-year"></span></span></footer>
+</body>
+</html>
